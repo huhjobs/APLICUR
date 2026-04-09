@@ -1,0 +1,18 @@
+# Datasets (only smallexampledata is tracked)
+datasets/*
+!datasets/smallexampledata/
+!datasets/smallexampledata/*.mat
+
+# Output directories
+results/
+
+# Result plots (only keep example data plots)
+resultplots/*
+!resultplots/largeexampledata/
+!resultplots/smallexampledata/
+
+# MATLAB data files
+*.mat
+
+*.asv
+.DS_Store

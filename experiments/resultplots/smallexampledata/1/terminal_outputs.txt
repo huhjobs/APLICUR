@@ -1,0 +1,73 @@
+
+
+d_600500_x_coh
+
+
+================LSQR Run================
+Failed to achieve desired back stability in 500 iterations.
+Total time: 0.594 sec
+LSQR time:  0.283 sec
+
+
+
+d_600500_x_coh
+
+
+================APLICUR Run================
+Algorithm: aplicur_svdfree
+block_size=10, errtol=3.00e-03
+svdfree=1, tol_errdist=10, tol_cvgrate=100
+SparseEmbedding
+i = 1	 errors(i) = 1.27e+02	minL = 1.27e+02	Terminated with acceptable LS solution in 2 iterations (ilsqr_minL).
+i = 5	 errors(i) = 5.27e+00	minL = 5.27e+00	Terminated with acceptable LS solution in 3 iterations (ilsqr_minL).
+i = 8	 errors(i) = 4.44e-01	minL = 4.44e-01	Terminated with acceptable LS solution in 4 iterations (ilsqr_minL).
+i = 10	 errors(i) = 7.13e-03	Terminated with acceptable LS solution in 32 iterations (ethan).
+Total time:            0.178 sec
+Preconditioning time:  0.029 sec
+LSQR time:             0.109 sec
+
+
+d_600500_x_coh
+
+
+================APLICUR Run================
+Algorithm: aplicur
+block_size=10, errtol=3.00e-03
+svdfree=0, tol_errdist=10, tol_cvgrate=100
+SparseEmbedding
+i = 1	 errors(i) = 1.04e+02	minL = 3.25e+01	Terminated with acceptable LS solution in 4 iterations (ilsqr_minL).
+i = 5	 errors(i) = 4.78e+00	minL = 9.62e-01	Terminated with acceptable LS solution in 5 iterations (ilsqr_minL).
+i = 8	 errors(i) = 3.91e-01	minL = 5.53e-02	Terminated with acceptable LS solution in 7 iterations (ilsqr_minL).
+i = 10	 errors(i) = 3.84e-03	minL = 9.91e-03	Terminated with acceptable LS solution in 3 iterations (ilsqr_minL).
+i = 12	 errors(i) = 2.32e-03	mu = 1.00e-04	Terminated with acceptable LS solution in 178 iterations (ethan).
+Total time:            0.470 sec
+Preconditioning time:  0.175 sec
+LSQR time:             0.273 sec
+
+
+d_600500_x_coh
+
+
+================Nystrom PCG Run================
+errtol = 3.00e-03, l0 = 10
+Terminated in 6 iterations (flag=1).
+Total time:                   0.080 sec
+Nyström preconditioning time: 0.069 sec
+PCG time:                     0.004 sec
+
+
+
+d_600500_x_coh
+
+
+================Blendenpik Run================
+Algorithm: bdp
+Terminated with acceptable LS solution in 97 iterations (ethan).
+Total time:               0.206 sec
+Preconditioning time:     0.016 sec
+LSQR time:                0.137 sec
+
+mu = 1.00e-04
+Target rank in aplicur_svdfree: 100
+Target rank in aplicur: 120
+Target rank in npcg: 160

@@ -1,0 +1,74 @@
+
+
+d_6k5k_xincon2_incoh
+
+
+================LSQR Run================
+Failed to achieve desired back stability in 500 iterations.
+Total time: 32.412 sec
+LSQR time:  20.544 sec
+
+
+
+d_6k5k_xincon2_incoh
+
+
+================APLICUR Run================
+Algorithm: aplicur_svdfree
+block_size=100, errtol=3.00e-03
+svdfree=1, tol_errdist=10, tol_cvgrate=100
+SparseEmbedding
+i = 1	 errors(i) = 1.62e+02	minL = 1.62e+02	Terminated with acceptable LS solution in 2 iterations (ilsqr_minL).
+i = 6	 errors(i) = 8.28e+00	minL = 8.28e+00	Terminated with acceptable LS solution in 6 iterations (ilsqr_minL).
+i = 9	 errors(i) = 6.05e-01	minL = 6.05e-01	Terminated with acceptable LS solution in 6 iterations (ilsqr_minL).
+i = 10	 errors(i) = 4.20e-02	minL = 4.20e-02	Terminated with acceptable LS solution in 4 iterations (ilsqr_minL).
+i = 11	 errors(i) = 1.27e-02	Terminated with acceptable LS solution in 759 iterations (ethan).
+Total time:            71.608 sec
+Preconditioning time:  2.539 sec
+LSQR time:             68.500 sec
+
+
+d_6k5k_xincon2_incoh
+
+
+================APLICUR Run================
+Algorithm: aplicur
+block_size=100, errtol=3.00e-03
+svdfree=0, tol_errdist=10, tol_cvgrate=100
+SparseEmbedding
+i = 1	 errors(i) = 1.83e+02	minL = 3.25e+01	Terminated with acceptable LS solution in 5 iterations (ilsqr_minL).
+i = 6	 errors(i) = 1.02e+01	minL = 3.03e-01	Terminated with acceptable LS solution in 28 iterations (ilsqr_minL).
+i = 9	 errors(i) = 9.51e-01	minL = 1.96e-02	Terminated with acceptable LS solution in 9 iterations (ilsqr_cvgrate).
+i = 10	 errors(i) = 1.56e-02	minL = 8.98e-03	Terminated with acceptable LS solution in 5 iterations (ilsqr_minL).
+i = 11	 errors(i) = 2.75e-03	mu = 1.00e-04	Terminated with acceptable LS solution in 753 iterations (ethan).
+Total time:            69.083 sec
+Preconditioning time:  5.260 sec
+LSQR time:             63.283 sec
+
+
+d_6k5k_xincon2_incoh
+
+
+================Nystrom PCG Run================
+errtol = 3.00e-03, l0 = 100
+Terminated in 4 iterations (flag=1).
+Total time:                   6.976 sec
+Nyström preconditioning time: 6.586 sec
+PCG time:                     0.185 sec
+
+
+
+d_6k5k_xincon2_incoh
+
+
+================Blendenpik Run================
+Algorithm: bdp
+Terminated with acceptable LS solution in 140 iterations (ethan).
+Total time:               24.476 sec
+Preconditioning time:     5.632 sec
+LSQR time:                12.932 sec
+
+mu = 1.00e-04
+Target rank in aplicur_svdfree: 1100
+Target rank in aplicur: 1100
+Target rank in npcg: 1600
