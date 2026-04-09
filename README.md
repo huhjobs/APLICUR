@@ -32,8 +32,8 @@ All experiments from the paper can be reproduced using `batch_experiments.m`.
 ```matlab
 dataset_path = '../datasets/datasetsubdirectory';  % path to dataset folder
 
-% Filter datasets to run (uncomment one):
-d = d(contains({d.name}, 'A'));       % single condition
+% Filter datasets to run (uncomment if needed):
+% d = d(contains({d.name}, 'A'));       % single condition
 % d = d((contains({d.name}, 'B') | ...
 %        contains({d.name}, 'C')) & ...
 %        contains({d.name}, 'D'));               % multiple conditions
