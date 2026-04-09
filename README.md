@@ -1,15 +1,15 @@
-# APLICUR: Adaptive Preconditioned Iterative CUR for Least Squares
+# APLICUR: Adaptively Preconditioned Iterative Solver for Linear Least-Squares
 
 This repository contains the MATLAB implementation accompanying the paper:
 
-> **Adaptive Preconditioned Iterative Methods via CUR Decomposition for Regularized Least Squares**  
+> **Adaptively Preconditioned LSQR from One Small Sketch**  
 > [[arXiv:2604.05065]](https://arxiv.org/abs/2604.05065)
 
 ---
 
 ## Overview
 
-APLICUR solves large-scale regularized least squares problems of the form
+APLICUR solves large-scale regularized linear least-squares problems of the form
 
 $$\min_x \|Ax - b\|_2^2 + \mu^2 \|x\|_2^2$$
 
