@@ -11,7 +11,7 @@ This repository contains the MATLAB implementation accompanying the paper:
 
 APLICUR solves large-scale regularized linear least-squares problems of the form
 
-$$\min_x \|Ax - b\|_2^2 + \mu^2 \|x\|_2^2$$
+$$\min_x \|Ax - b\|_2^2 + \mu \|x\|_2^2$$
 
 by adaptively building a CUR-based preconditioner and applying it within an iterative LSQR solver.
 
